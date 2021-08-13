@@ -1,0 +1,66 @@
+body{
+    height: 100%;
+    margin: 0%;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    line-height: 1.8em;
+    color: #666;
+}
+.img1, .img2, .img3{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+.img1{
+    background-image: url(images/pune2.png);
+    min-height: 100%;
+
+}
+.img2{
+    background-image: url(images/jpg2.jpg);
+    min-height: 400px;
+}
+.img3{
+    background-image: url(images/jpg3.jpg);
+    min-height: 400px;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+    background-color: seashell;
+}
+.section-light{
+    background-color: seashell;
+    color: #666;
+}
+.section-dark{
+    background-color: seashell;
+    color: #666;
+
+}
+.text{
+  position: absolute;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color: black;
+  letter-spacing:8px;
+  text-transform:uppercase;
+  
+}
+
+.text .border{
+  background-color:#111;
+  color:#fff;
+  padding: 20px;
+}
+
+.text .border-t{
+  background-color:transparent;
+}
